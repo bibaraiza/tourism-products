@@ -107,3 +107,41 @@ nav a:hover {
     color: #d62828;
     font-weight: bold;
 }
+
+.hero-collage {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+
+.hero-collage .images {
+  display: flex;
+  height: 100%;
+}
+
+.hero-collage img {
+  width: 33.33%;
+  object-fit: cover;
+}
+
+.hero-collage .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-collage h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-collage p {
+  font-size: 18px;
+}
