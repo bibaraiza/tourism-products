@@ -2,135 +2,59 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Davao City Tour Package</title>
-
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
-}
-
-/* Header */
-header {
-    background-color: #023047;
-    color: white;
-    padding: 20px 40px;
-}
-
-/* Main layout */
-.container {
-    display: flex;
-    gap: 30px;
-    padding: 40px;
-}
-
-/* Left content */
-.main {
-    flex: 3;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-/* Right price box */
-.price-box {
-    flex: 1;
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    height: fit-content;
-    border: 1px solid #ddd;
-}
-
-.price {
-    font-size: 28px;
-    color: #d62828;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #ff7a00;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #e56f00;
-}
-
-/* Tags */
-.tag {
-    display: inline-block;
-    background-color: #e0f2f1;
-    color: #006d77;
-    padding: 6px 10px;
-    margin: 5px 5px 5px 0;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-h1 {
-    margin-top: 0;
-}
-</style>
+<title>Davao City Tour</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h2>Tourism Products – Philippines</h2>
+    <nav>
+        <a href="index.html">Davao Tour</a>
+        <a href="cebu.html">Cebu Tour</a>
+    </nav>
 </header>
 
 <div class="container">
 
-    <!-- LEFT SIDE -->
-    <div class="main">
-        <h1>Davao City Highlights Full-Day Tour</h1>
+<div class="main">
 
-        <div class="tag">1 Day Tour</div>
-        <div class="tag">City Tour</div>
-        <div class="tag">English / Filipino</div>
+<div class="gallery">
+    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+</div>
 
-        <h3>Tour Description</h3>
-        <p>
-            Explore the beautiful city of Davao with this full-day city tour.
-            This tourism product is designed to showcase popular attractions
-            and cultural sites in the city.
-        </p>
+<div class="box">
+    <h1>Davao City Highlights Full-Day Tour</h1>
+    <span class="tag">1 Day</span>
+    <span class="tag">City Tour</span>
+    <span class="tag">English / Filipino</span>
 
-        <h3>Tour Highlights</h3>
-        <ul>
-            <li>Visit People’s Park</li>
-            <li>Explore Museo Dabawenyo</li>
-            <li>See D’Bone Collector Museum</li>
-            <li>Enjoy local culture and city sights</li>
-        </ul>
+    <p>
+        Discover the culture and history of Davao City with this full-day tour.
+        This tourism product highlights famous landmarks and local attractions.
+    </p>
+</div>
 
-        <h3>Inclusions</h3>
-        <ul>
-            <li>City tour transportation</li>
-            <li>Tour guide</li>
-            <li>Entrance fees</li>
-        </ul>
-    </div>
+<div class="box">
+    <h3>Tour Highlights</h3>
+    <ul>
+        <li>People’s Park</li>
+        <li>Davao Museum of History</li>
+        <li>Japanese Tunnel</li>
+        <li>City Hall</li>
+    </ul>
+</div>
 
-    <!-- RIGHT SIDE -->
-    <div class="price-box">
-        <h3>Price</h3>
-        <p class="price">₱1,300</p>
-        <p><strong>Sample Price Only</strong></p>
-        <button>Select Options</button>
-        <p style="font-size:12px; margin-top:10px;">
-            *This is a sample tourism product for school purposes.
-        </p>
-    </div>
+</div>
+
+<div class="price-box">
+    <h3>Price</h3>
+    <p class="price">₱1,300</p>
+    <button class="select-btn">Select Options</button>
+    <p style="font-size:12px;">Sample price only</p>
+</div>
 
 </div>
 
